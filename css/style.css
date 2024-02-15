@@ -1,0 +1,111 @@
+* { margin: 0px; padding: 0px; }
+header { display: flex; justify-content: space-between; width: 90%; margin-left: 5%; margin-top: 20px; margin-bottom: 20px; }
+.logo { width: 50%; }
+nav { width: 50%; }
+header nav ul { display: flex; list-style: none; justify-content: space-around; }
+header nav ul li { margin-left: 50px; }
+header nav ul li a { text-decoration: none; color: rgb(98, 98, 98); text-transform: uppercase; font-family: "Playfair Display", serif; }
+.banner_section { }
+.banner_section img { }
+* { margin: 0px; padding: 0px; }
+header { display: flex; justify-content: space-between; width: 90%; margin-left: 5%; margin-top: 20px; margin-bottom: 20px; }
+.logo { width: 50%; }
+nav { width: 50%; }
+header nav ul { display: flex; list-style: none; justify-content: space-around; }
+header nav ul li { margin-left: 50px; }
+header nav ul li a { text-decoration: none; color: rgb(98, 98, 98); text-transform: uppercase; }
+.banner_section { width: 90%; margin: 5%; }
+.banner_section img { width: 100%; }
+.photodiary { width: 80%; margin: 10%; }
+.photodiary h5 { color: rgb(98, 98, 98); text-transform: uppercase; font-size: 14px; font-weight: 400; margin-bottom: 15px; font-family: Ubuntu, sans-serif; }
+.photodiary h1 { color: rgb(98, 98, 98); text-transform: capitalize; font-size: 30px; font-weight: 400; margin-bottom: 15px; font-family: "Playfair Display", serif; }
+.photodiary p { color: rgb(98, 98, 98); margin-bottom: 15px; font-family: "Playfair Display", serif; line-height: 21px; font-size: 15px; }
+.photodiary h6 { color: rgb(98, 98, 98); text-transform: uppercase; font-size: 14px; font-weight: 400; margin-bottom: 15px; font-family: Ubuntu, sans-serif; }
+.feature_section { transform-style: flat; width: 80%; margin: auto; display: flex; flex-wrap: wrap; justify-content: space-between; }
+.feature_item { width: 48%; margin-bottom: 70px; }
+.feature_item img { width: 100%; margin-bottom: 15px; }
+.feature_item h1 { color: rgb(98, 98, 98); text-transform: capitalize; font-size: 30px; font-weight: 400; margin-bottom: 15px; font-family: "Playfair Display", serif; }
+.feature_item h5 { color: rgb(98, 98, 98); text-transform: uppercase; font-size: 14px; font-weight: 400; margin-bottom: 15px; font-family: Ubuntu, sans-serif; }
+.feature_item p { }
+.newslatter {
+     background: rgb(240, 240, 240); 
+     padding: 70px;
+     margin: 70px;
+}
+.content {width: 30%;margin: auto;}
+.content h2 { color: rgb(98, 98, 98); text-transform: capitalize; font-size: 30px; font-weight: 400; margin-bottom: 50px; font-family: "Playfair Display", serif; }
+.content input {border: none;width: 100%;background: transparent;border-bottom: 1px solid #000;}
+.content input:focus{
+    outline: none;
+}
+.content input::placeholder{
+    font-family: "Playfair Display", serif;
+    color: #626262;
+}
+.loadmore{
+
+text-align: center;
+
+margin: 50px 0;
+}
+.loadmore button{
+    
+background: transperant;
+    
+border: none;
+    
+border: 1px solid #000;
+    
+font-size: 18px;
+    
+padding:  10px 20px;
+    
+text-transform: capitalize;
+}
+footer{
+
+background: #f0f0f0;
+
+padding: 30px 0;
+}
+.footer_content{
+
+width: 80%;
+
+display: flex;
+
+justify-content: space-between;
+
+margin: auto;
+}
+.terms{
+}
+.terms ul{
+
+list-style: none;
+
+display: flex;
+
+justify-content: space-between;
+}
+.terms ul li{
+    margin-left: 15px;
+}
+.terms ul li a{
+    
+text-transform: capitalize;
+    
+text-decoration: none;
+    
+color: #626262;
+}
+.social_icon{
+
+}
+.social_icon ul{
+
+list-style: none;
+
+display: flex;
+}
+.social_icon ul li{margin-left: 15px;}
